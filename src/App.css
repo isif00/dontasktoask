@@ -1,38 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,500&family=Quicksand:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+
+  margin: 130px 130px;
+  margin-bottom: 10px;
+  padding: 0px;
+
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.title {
+  line-height: 0px;
+  display: flex;
+  gap: 25px;
+  align-items: baseline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title p {
+  font-size: 5em;
+  font-weight: bold;
+  color: rgb(4, 4, 58);
+  display: 'inline-block';
+  font-family: monospace;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.under-title {
+  margin-top: 30px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 1.5em;
+  font-weight: 100;
+  color: rgb(99, 87, 135);
+
+}
+
+.under-title img {
+  width: 50px;
+  height: 50px;
+}
+
+.introduction {
+  margin-top: 100px;
+
+  font-size: 2.5em;
+  font-weight: 100;
+  color: rgb(4, 4, 58);
+}
+
+.regular-text {
+  font-size: 1.5em;
+  font-weight: 100;
+  color: rgb(4, 4, 58);
+}
+
+.details {
+  align-items: baseline;
+  display: flex;
+  gap: 40px;
+}
+
+.example {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.example-title {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.example p {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(4, 4, 58);
+}
+
+.example img {
+  width: 35px;
+  height: 35px;
+}
+
+.details p {
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(4, 4, 58);
+}
+
+.footer {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer p {
+  font-size: 1em;
+  font-weight: 100;
+  color: rgb(4, 4, 58);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer img {
+  width: 30px;
+  height: 30px;
 }
